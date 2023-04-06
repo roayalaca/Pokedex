@@ -26,7 +26,7 @@ const username = () => {
             value={ value }
             onChange= {e => setValue( e.target.value )}
             />
-            <button onClick={changeName}>Name</button>
+            <button onClick={changeName}>Start!</button>
         </div>
     );
 };

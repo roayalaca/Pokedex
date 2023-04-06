@@ -1,13 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+
+
 .App{
   min-height: 100vh;
   display: grid;
   place-content: center;
+  min-width: 100vh;
 }
 
 
@@ -28,6 +33,35 @@
   width: 12rem;
 }
 
+.Home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+
+.footer{
+  position: relative;
+  top: 13rem;
+}
+
+.footer1{
+  background-color: red;
+  width: 221vh;
+  color: red;
+  height: 4rem;
+}
+.footer2{
+  background-color: black;
+  width: 221vh;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+
 .Pokedex{
   border: black solid 10px;
   display: flex;
@@ -35,6 +69,20 @@
   align-items: center;
   flex-direction: column;
 }
+
+
+.Pokedex{
+  position: relative;
+  top:10rem;
+}
+
+
+.Select select{
+  width: 70rem;
+}
+
+
+
 
 .pagination{
   font-size: 2rem;

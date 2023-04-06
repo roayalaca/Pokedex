@@ -23,7 +23,7 @@ function App() {
   const[pokemon, setPokemon] = useState([])
   const [pages, setPages] = useState({ next: null, prev: null })
   const[currentPage, setCurrentPage] = useState(1);
-  const[postsPerPage] = useState(1281)
+  const[postsPerPage] = useState(5)
   const [type, setType] = useState([])
 
 
